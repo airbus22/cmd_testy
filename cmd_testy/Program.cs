@@ -14,7 +14,7 @@ namespace cmd_testy
             //lbl1.Text = pyt.Ciag(401);
 
             Ankieta ankieta_test = new Ankieta();
-            ankieta_test.UtworzPytanie(5);
+            ankieta_test.UtworzPytanie(15);
         }
         
         public class Ankieta
@@ -31,16 +31,16 @@ namespace cmd_testy
                     obiekty_pyt_nazwy[i] = p + "_" + (i+1).ToString();
                 }
 
-                for (int i =0; i < obiekty_pyt_nazwy.Length; i++)
-                {
-                    Console.WriteLine(obiekty_pyt_nazwy[i]);
-                }
-                Console.ReadKey();
-
-                //for (int i = 1; i < m; i++)
+                //for (int i =0; i < obiekty_pyt_nazwy.Length; i++)
                 //{
-                //    Pytanie pytanie = new Pytanie();
+                //    Console.WriteLine(obiekty_pyt_nazwy[i]);
                 //}
+                //Console.ReadKey();
+
+                for (int i = 1; i < m; i++)
+                {
+                    Pytanie obiekty_pyt_nazwa = new Pytanie();
+                }
             }
         }
 
