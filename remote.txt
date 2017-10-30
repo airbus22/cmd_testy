@@ -1,0 +1,3 @@
+D:\VS2015_projekty\cmd_testy>git remote -v
+origin  https://github.com/airbus22/cmd_testy.git (fetch)
+origin  https://github.com/airbus22/cmd_testy.git (push)
