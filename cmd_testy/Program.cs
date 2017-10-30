@@ -10,8 +10,8 @@ namespace cmd_testy
     {
 
         //int m;
-        int ilosc_pytan;
-        string[] obiekty_pyt_nazwy;
+        //int ilosc_pytan;
+        //string[] obiekty_pyt_nazwy;
 
 
         static void Main(string[] args)
@@ -20,7 +20,7 @@ namespace cmd_testy
             //lbl1.Text = pyt.Ciag(401);
 
             Ankieta ankieta_test = new Ankieta();
-            ankieta_test.UtworzPytanie(11);
+            ankieta_test.UtworzPytanie(40);
 
             //for (if= 1; if < )
 
@@ -42,10 +42,14 @@ namespace cmd_testy
                 
                 for (int i = 0; i < m; i++)
                 {
-                    obiekty_pyt_nazwy[i] = p + i.ToString();
+                    obiekty_pyt_nazwy[i] = p + "_" + (i+1).ToString();
                 }
-
-                Console.WriteLine(obiekty_pyt_nazwy[0]);
+                for (int i =0; i < obiekty_pyt_nazwy.Length; i++)
+                {
+                    //Console.Write("{0} ", i);
+                    Console.WriteLine(obiekty_pyt_nazwy[i]);
+                }
+                //Console.WriteLine(obiekty_pyt_nazwy[0]);
                 Console.ReadKey();
                 //return obiekty_pyt_nazwy[0];
 
