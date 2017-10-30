@@ -20,7 +20,7 @@ namespace cmd_testy
             //lbl1.Text = pyt.Ciag(401);
 
             Ankieta ankieta_test = new Ankieta();
-            ankieta_test.UtworzPytanie(40);
+            ankieta_test.UtworzPytanie(5);
 
             //for (if= 1; if < )
 
@@ -52,8 +52,6 @@ namespace cmd_testy
                 //Console.WriteLine(obiekty_pyt_nazwy[0]);
                 Console.ReadKey();
                 //return obiekty_pyt_nazwy[0];
-
-
 
                 //for (int i = 1; i < m; i++)
                 //{
