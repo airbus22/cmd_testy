@@ -10,9 +10,6 @@ namespace cmd_testy
     {
         static void Main(string[] args)
         {
-            //Pytanie pyt = new Pytanie();
-            //lbl1.Text = pyt.Ciag(401);
-
             Ankieta ankieta_test = new Ankieta();
             ankieta_test.UtworzPytanie(5);
         }
@@ -66,28 +63,6 @@ namespace cmd_testy
 
         public class Pytanie
         {
-            //public string L { get; private set; }
-
-            //public string Ciag(int m)
-            //{                        
-            //    for (int i = 1; i < m; i++)
-            //    {                
-            //        if (i <= 1)
-            //        {
-            //            L = i.ToString();
-            //        }
-            //        else
-            //        {
-            //            L = L + ", " + i;
-            //        }
-            //    }            
-            //    return L;
-            //}
-
-            //public Pytanie(int NumerPytania)
-            //{
-
-            //}
 
             public Pytanie(string TrescPytania)
             {
@@ -101,18 +76,6 @@ namespace cmd_testy
                 this.NumerPytania = NumerPytania;
                 this.TrescOdpowiedzi = TrescOdpowiedzi;
             }
-
-            //int NumerPytania
-            //{
-            //    get
-            //    {
-            //        return this.NumerPytania;
-            //    }
-            //    set
-            //    {
-            //        NumerPytania = value;
-            //    }
-            //}
 
             int NumerPytania { get; set; }
             string TrescPytania { get; set; }
