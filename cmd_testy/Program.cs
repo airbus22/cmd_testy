@@ -36,21 +36,22 @@ namespace cmd_testy
                 {
                     tresc_pytn[i] = p + "_" + (i+1).ToString() + ": " + "Tresc_pytania_" + i.ToString();
                 }
-                
-                //for (int i = 0; i < m; i++)
-                //{
-                //    //Pytanie obiekty_pyt_nazwa = new Pytanie(1, "Która godzina?", 2, "11:32");
-                //    //Console.WriteLine(i.ToString());
-                //    //pytanie[i] = new Pytanie(i, tresc_pytn[i], rand.Next(1, 5), DateTime.Today.ToString());
-                //    pytanie[i] = new Pytanie("jakiś tekst");
-                //}
-                pytanie[0] = new Pytanie("jakiś tekst0");
-                pytanie[1] = new Pytanie("jakiś tekst1");
-                pytanie[2] = new Pytanie("jakiś tekst2");
 
-                Console.WriteLine(" " + pytanie[0]);
-                Console.WriteLine(" " + pytanie[1]);
-                Console.WriteLine(" " + pytanie[2]);
+                for (int i = 0; i < m; i++)
+                {
+                    //Pytanie obiekty_pyt_nazwa = new Pytanie(1, "Która godzina?", 2, "11:32");
+                    //Console.WriteLine(i.ToString());
+                    //pytanie[i] = new Pytanie(i, tresc_pytn[i], rand.Next(1, 5), DateTime.Today.ToString());
+                    pytanie[i] = new Pytanie("jakiś tekst");
+                }
+
+                //pytanie[0] = new Pytanie("jakiś tekst0");
+                //pytanie[1] = new Pytanie("jakiś tekst1");
+                //pytanie[2] = new Pytanie("jakiś tekst2");
+
+                //Console.WriteLine(" " + pytanie[0]);
+                //Console.WriteLine(" " + pytanie[1]);
+                //Console.WriteLine(" " + pytanie[2]);
 
                 //for (int i = 0; i < obiekty_pyt_nazwy.Length; i++)
                 //{
