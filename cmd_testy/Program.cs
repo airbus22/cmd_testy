@@ -71,11 +71,6 @@ namespace cmd_testy
                 this.TrescOdpowiedzi = TrescOdpowiedzi;
             }
 
-            int numerPytania;
-            string trescPytania;
-            int numerOdpowiedzi;
-            string trescOdpowiedzi;
-
             public int NumerPytania { get; set; }
             public string TrescPytania { get; set; }
             public int NumerOdpowiedzi { get; set; }
