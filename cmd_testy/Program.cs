@@ -10,8 +10,11 @@ namespace cmd_testy
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Podaj ilość pytań:\n");
+            string a = Console.ReadLine();
+            int ilosc_pytan = Int32.Parse(a);
             Ankieta ankieta_test = new Ankieta();
-            ankieta_test.UtworzPytanie(300);
+            ankieta_test.UtworzPytanie(ilosc_pytan);
         }
 
         class Ankieta
@@ -24,6 +27,7 @@ namespace cmd_testy
                 Random rand = new Random();
                 string[] obiekty_pyt_nazwy = new string[m];
                 string[] tresc_pytn = new string[m];
+                Console.WriteLine("\n\n");
 
                 for (int i = 0; i < m; i++)
                 {
