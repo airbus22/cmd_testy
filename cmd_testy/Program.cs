@@ -25,7 +25,6 @@ namespace cmd_testy
             Pytanie[] pytanie = new Pytanie[m];
             Random rand = new Random();
             Console.WriteLine("\n\n");
-            //Pytanie[] pytanie = new Pytanie[m+1];
             string p = "Pytanie";            
             string[] obiekty_pyt_nazwy = new string[m];
             string[] tresc_pytn = new string[m];            
