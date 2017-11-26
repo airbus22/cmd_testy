@@ -34,7 +34,7 @@ namespace cmd_testy
             {
                 obiekty_pyt_nazwy[i] = p + "_" + (i + 1).ToString();
                 tresc_pytn[i] = p + "_" + (i + 1).ToString() + ": " + "Tresc_pytania_" + (i + 1).ToString();
-                pytanie[i] = new Pytanie(i, tresc_pytn[i], rand.Next(1, 5), DateTime.Today.ToString());
+                pytanie[i] = new Pytanie(i+1, tresc_pytn[i], rand.Next(1, 5), DateTime.Today.ToString());
             }
 
             for (int i = 0; i < obiekty_pyt_nazwy.Length; i++)
